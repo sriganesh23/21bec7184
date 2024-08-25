@@ -11,7 +11,7 @@ const App = () => {
 
   const handleJsonSubmit = async (jsonData) => {
     try {
-      const res = await axios.post('http://localhost:3000/bfhl', jsonData);
+      const res = await axios.post('https://21bec7184.vercel.app/', jsonData);
       setResponse(res.data);
     } catch (error) {
       console.error('Error calling API:', error);
