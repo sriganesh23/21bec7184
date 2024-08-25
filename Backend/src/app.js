@@ -42,7 +42,8 @@ app.post('/bfhl', (req, res) => {
 });
 
 // Define the GET route
-app.get('/bfhl', (req, res) => {
+app.get('21bec7184-ganeshs-projects-65eb4db6.vercel.app
+', (req, res) => {
     res.json({ operation_code: 1 });
 });
 
